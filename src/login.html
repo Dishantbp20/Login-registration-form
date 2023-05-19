@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Demo</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // jQuery code goes here
+
+      // Example 1: Hide and show an element
+      $("#hideButton").click(function() {
+        $("#message").hide();
+      });
+
+      $("#showButton").click(function() {
+        $("#message").show();
+      });
+
+      // Example 2: Change text on button click
+      $("#changeTextButton").click(function() {
+        $("#displayText").text("New Text!");
+      });
+
+      // Example 3: Fade in and fade out an element
+      $("#fadeInButton").click(function() {
+        $("#fadeElement").fadeIn();
+      });
+
+      $("#fadeOutButton").click(function() {
+        $("#fadeElement").fadeOut();
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>jQuery Demo</h1>
+  
+  <p id="message">Hello, this is a message.</p>
+  
+  <button id="hideButton">Hide</button>
+  <button id="showButton">Show</button>
+  
+  <hr>
+  
+  <p id="displayText">Click the button to change this text.</p>
+  
+  <button id="changeTextButton">Change Text</button>
+  
+  <hr>
+  
+  <div id="fadeElement" style="width: 200px; height: 200px; background-color: #f0f0f0; display: none;"></div>
+  
+  <button id="fadeInButton">Fade In</button>
+  <button id="fadeOutButton">Fade Out</button>
+</body>
+</html>

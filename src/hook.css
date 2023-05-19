@@ -1,0 +1,15 @@
+.but{
+    display: flex;
+    margin-left:50%;
+    
+}
+.btn{
+    width:50px;
+    margin:10px;
+}
+h3{
+    color:darkblue;
+    font-size: xx-large;
+    margin:15px
+
+}
